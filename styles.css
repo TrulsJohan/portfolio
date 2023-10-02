@@ -5,15 +5,19 @@ body {
     overflow-x: hidden;
 }
 header {
-    background-color: cadetblue;
+    background-color: white;
     padding: 16px
 }
 header li {
-    color: white;
+    color: black;
     display: inline;
     padding-left: 40px;
 }
 header li:hover {
     color: royalblue;
-    transition: 1s ease;
+    transition: 3ms ease none;
+}
+main li {
+    display: inline;
+    padding-left: 20px;
 }
